@@ -22,7 +22,7 @@ function Contact() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://quanha.vercel.app/api/send-form",
+        "https://myportfolio-server1.onrender.com",
         formData
       );
       console.log("response: ", response);
