@@ -1,0 +1,21 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 20px;
+  row-gap: 15px;
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+}
+
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}
