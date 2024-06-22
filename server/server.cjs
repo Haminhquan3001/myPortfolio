@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const emailjs = require("emailjs-com");
 const corsOptions = {
-  origin: "https://quanha.vercel.app/", 
+  origin: "https://quanha.vercel.app", 
   optionsSuccessStatus: 200
 };
 const axios = require("axios");
