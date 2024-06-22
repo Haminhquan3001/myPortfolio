@@ -22,7 +22,7 @@ function Contact() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "/api/send-form",
+        "https://myportfolio-server1.onrender.com/api/send-form",
         formData
       );
       console.log("response: ", response);
